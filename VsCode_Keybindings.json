@@ -1,0 +1,167 @@
+[
+    {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "r",
+        "command": "renameFile",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "c",
+        "command": "filesExplorer.copy",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "sideBarFocus && !inputFocus"
+    },
+    {
+        "key": "alt-j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "vim.mode != 'Insert' && editorTextFocus"
+    },
+    {
+        "key": "alt-k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "vim.mode != 'Insert' && editorTextFocus"
+    },
+    {
+        "key": "shift-k",
+        "command": "editor.action.showHover",
+        "when": "vim.mode == 'Normal' && editorTextFocus"
+    },
+    {
+        "key": "space c a",
+        "command": "editor.action.codeAction",
+        "when": "vim.mode == 'Normal' && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "space c r",
+        "command": "editor.action.rename",
+        "when": "vim.mode == 'Normal' && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "space c s",
+        "command": "workbench.action.gotoSymbol",
+        "when": "vim.mode == 'Normal' && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "space b d",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "vim.mode == 'Normal'   && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "space t",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "vim.mode =='Normal' && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "space v",
+        "command": "workbench.action.splitEditor",
+        "when": "vim.mode =='Normal'  && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "space s",
+        "command": "workbench.action.splitEditorDown",
+        "when": "vim.mode =='Normal'  && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "shift-l",
+        "command": "workbench.action.focusRightGroup",
+        "when": "vim.mode =='Normal' && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "shift-h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "vim.mode =='Normal'&& (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "shift-k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "vim.mode =='Normal'&& (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "shift-j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "vim.mode =='Normal'    && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "[ d",
+        "command": "editor.action.marker.prev",
+        "when": "vim.mode =='Normal'"
+    },
+    {
+        "key": "] d",
+        "command": "editor.action.marker.next",
+        "when": "vim.mode =='Normal'"
+    },
+    {
+        "key": "space f",
+        "command": "workbench.action.quickOpen",
+        "when": "vim.mode=='Normal'  && (editorTextFocus|| !inputFocus )"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.debug.stepOver",
+        "when": "debugState == 'stopped'"
+      },
+      {
+        "key": "shift+ctrl+.",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode && !focusedSessionIsAttach"
+      },
+      {
+        "key": "ctrl+;",
+        "command": "workbench.action.debug.stepInto",
+        "when": "debugState != 'inactive'"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "-workbench.action.openSettings"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    }
+    
+]
