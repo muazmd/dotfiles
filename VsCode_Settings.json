@@ -1,0 +1,90 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none",
+  "vim.easymotion": true,
+  "vim.enableNeovim": true,
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.statusBarColorControl": true,
+  "vim.useSystemClipboard": true,
+  "vim.visualstar": true,
+  "update.showReleaseNotes": false,
+  "zenMode.hideLineNumbers": false,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<Space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+ 
+  "zenMode.hideActivityBar": false,
+  "zenMode.centerLayout": false,
+  "[json]": {
+    "editor.defaultFormatter": "ms-dynamics-smb.al"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "editor.accessibilitySupport": "on",
+  "files.exclude": {
+    "**/.apivcs": true,
+    "**/.gitignore": true,
+    "**/.git": true,
+    "**/.designer.json": true,
+    "**/.exchange.xml": true,
+    "**/.vscode": true,
+    "**/.mvn": true,
+    "**/.exchange_modules_tmp": true
+  },
+  "terminal.integrated.cursorStyle": "block",
+  "window.zoomLevel": -2,
+  "window.menuBarVisibility": "compact",
+  "workbench.editorAssociations": {
+    "*.app": "default"
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f00af",
+    "statusBar.noFolderBackground": "#5f00af",
+    "statusBar.debuggingBackground": "#5f00af",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff",
+    "terminal.background": "#001100",
+    "terminal.foreground": "#00BB00",
+    "terminalCursor.background": "#00BB00",
+    "terminalCursor.foreground": "#00BB00",
+    "terminal.ansiBlack": "#001100",
+    "terminal.ansiBlue": "#009900",
+    "terminal.ansiBrightBlack": "#007700",
+    "terminal.ansiBrightBlue": "#009900",
+    "terminal.ansiBrightCyan": "#005500",
+    "terminal.ansiBrightGreen": "#00BB00",
+    "terminal.ansiBrightMagenta": "#00BB00",
+    "terminal.ansiBrightRed": "#007700",
+    "terminal.ansiBrightWhite": "#00FF00",
+    "terminal.ansiBrightYellow": "#007700",
+    "terminal.ansiCyan": "#005500",
+    "terminal.ansiGreen": "#00BB00",
+    "terminal.ansiMagenta": "#00BB00",
+    "terminal.ansiRed": "#007700",
+    "terminal.ansiWhite": "#00BB00",
+    "terminal.ansiYellow": "#007700"
+  },
+  "al.enableCodeActions": false,
+  "al.enableCodeAnalysis": true,
+  "editor.codeLens": false,
+  "al.codeAnalyzers": [
+    "${PerTenantExtensionCop}"
+  ],
+}
